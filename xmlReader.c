@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 
-
+// This is code
 char* read_file_ascii(const char* path) { 
 	FILE* fp = fopen(path, "r"); 
 	if (!fp) { 
